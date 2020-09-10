@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.about h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.about p{
+    margin: 0 230px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+
+    max-width: 850px;
+
+}
