@@ -1,0 +1,66 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+
+    <link rel="stylesheet" href="/css/recipe.css">
+
+    <title>{{recipe.title}} | Foodfy</title>
+
+{% endblock %}
+
+{% block content %}
+    
+    <!-- ===== RECIPE ===== -->
+
+<section class="max-width">
+    <div class="recipe">
+
+        <img src="{{recipe.image}}" alt="Foto do {{recipe.title}}">
+        
+        <div class="recipe-description">
+            <h1>{{recipe.title}}</h1>
+            <p>por {{recipe.author}}</p>
+
+        </div>
+        <div class="recipe-info">
+            <input type="checkbox" id=item1 class="input1">
+            <div class="ingredientes">
+                
+                <dt>Ingredientes</dt>
+                 <label for="item1" class="button1">Esconder</label>
+                 <div class="texto1">
+                    <dd>
+                        {% for ingredients in recipe.ingredients %}
+                        <li>{{ingredients}}</li>
+                        {% endfor %}
+                    </dd>
+                </div>
+            </div>
+
+            <input type="checkbox" id=item2 class="input1">
+            <div class="preparo">
+            
+                <dt>Modo de Preparo</dt>
+                <label for="item2" class="button1">Esconder</label>
+                <div class="texto2">
+                    <dd>
+                        {% for preparation in recipe.preparation %}   
+                        <li>{{preparation}}</li>
+                        {% endfor %}
+                    </dd>
+                </div>    
+            </div>
+            <input type="checkbox" id=item3 class="input1">
+            <div class="info">
+
+                <dt>Informações adicionais</dt>
+                <label for="item3" class="button1">Mostrar</label>
+                <div class="texto3">
+                    <dd>{{ recipe.information | striptags(true) | escape | nl2br }}</dd>
+                </div>
+        </div>
+
+    </div>
+</section>
+<script src="/scripts/scripts.js"></script>
+{% endblock %}

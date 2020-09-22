@@ -19,74 +19,25 @@
 
 <section class="cards">
    
+    {% set length = recipes.length if recipes.length < 6 else 6 %}
+    {% for recipe in recipes%}
+    
 
-    <div class="card" id="Burger">
+    <div class="card" id="{{recipe.id}}">
         <div class="card_image">
-            <img src="/assets/burger.png" alt="Burger">
+            <img src='https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/launchbase/receitas/{{recipe.id}}.png' alt="Imagem de {{recipe.id}}">
         </div>
         <div class="card_info">
-            <p>Triplo bacon burger</p>
+            <p>{{recipe.title}}</p>
         </div>
         <div class="card_chef">
-            <h3>por Jorge Relato</h3>
+            <h3>por {{recipe.author}}</h3>
         </div>
-    </div>
+    </div>  
+    
+    {%endfor%}
+    <script src="/scripts/scripts.js"></script>
 
-    <div class="card" id="Pizza">
-        <div class="card_image">
-            <img src="/assets/pizza.png" alt="Pizza">
-        </div>
-        <div class="card_info">
-            <p>Pizza 4 estações</p>
-        </div>
-        <div class="card_chef">
-            <h3>por Fabiana Melo</h3>
-        </div>   
-    </div>
-
-    <div class="card" id="espaguete">
-        <div class="card_image">
-            <img src="/assets/espaguete.png" alt="espaguete">
-        </div>
-        <div class="card_info">
-            <p>Espaguete ao alho</p>
-        </div>
-        <div class="card_chef">
-            <h3>por Júlia Kinoto</h3>
-        </div>   
-    </div>
-    <div class="card" id="lasanha">
-        <div class="card_image">
-            <img src="/assets/lasanha.png" alt="lasanha">
-        </div>
-        <div class="card_info">
-            <p>Lasanha mac n’ cheese</p>
-        </div>
-        <div class="card_chef">
-            <h3>por Juliano Vieira</h3>
-        </div>
-    </div>
-    <div class="card" id="doce">
-        <div class="card_image">
-            <img src="/assets/doce.png" alt="doce">
-        </div>
-        <div class="card_info">
-            <p>Docinhos pão-do-céu</p>
-        </div>
-        <div class="card_chef">
-            <h3>por Ricardo Golvea</h3>
-        </div>
-    </div>
-    <div class="card" id="asinhas">
-        <div class="card_image">
-            <img src="/assets/asinhas.png" alt="asinhas">
-        </div>
-        <div class="card_info">
-            <p>Asinhas de frango ao barbecue</p>
-        </div>
-        <div class="card_chef">
-            <h3>por Vania Steroski</h3>
-        </div>
-    </div>
+    
 </section>
 {%endblock%}
