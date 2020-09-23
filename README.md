@@ -1,5 +1,5 @@
 <h1>Foodfy:poultry_leg: </h1>
-<p align="center">
+<p>
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
   </a>
@@ -9,9 +9,11 @@
 
 <p>Em sua versão inicial, o site deve apresentar quando selecionada a receita apenas um card com o nome da receita e autor. Porém em sua versão final serão adicionados os artigos através do Back-and desenvolvido com Node.js.</p>
 
+<h1 align = center>
+  <img "aling:center" src="https://github.com/pereirafelipe/Foodfy-front-end/blob/master/assets/Foodfy2.gif" alt="foodfy-gif" >
+</h1>
 
-<img src="https://github.com/pereirafelipe/Foodfy-front-end/blob/master/assets/Foodfy2.gif" width="100%" alt="foodfy-gif" >
-                                                                                                               
+
 ## :books:Paginas
 
 <p> O site contém 3 paginas
