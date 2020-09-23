@@ -1,6 +1,7 @@
 :root{
     --cor-preta: #111111 ;
     --cor-cinza: #777777;
+    --cor-rosa: #FBDFDB;
 
 }
 
@@ -47,7 +48,7 @@ header a:hover{
     width: 935px;
     height: 366px;
     
-    background: #FBDFDB ;
+    background: var(--cor-rosa);
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -162,6 +163,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 footer a{
@@ -190,6 +192,8 @@ footer a{
 input:checked + .ingredientes .texto1{
     display: none;
 }
+
+
 
 
 .texto3{

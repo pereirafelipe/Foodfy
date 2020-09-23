@@ -166,7 +166,7 @@ module.exports = [
     {
       id: "lamen",
       image: 'https://img.itdg.com.br/tdg/images/recipes/000/181/073/303173/303173_original.jpg?mode=crop&width=710&height=400',
-      title: 'Lamen ao Molho Tarê com Frango',
+      title: 'Lamen ao Molho Tarê',
       author: 'Carol Silva e Heloisa Guimarães',
       ingredients: [
         '300 g de filezinho Sassami;',
