@@ -1,9 +1,4 @@
 <h1>Foodfy:poultry_leg: </h1>
-<p>
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
-  </a>
-</p>
 
 <p>O site Foodfy é um projeto do bootcamp Launch Base da RocketSeat, cujo objetivo é desenvolver um site de receitas conforme o design apresentado.</p>
 
