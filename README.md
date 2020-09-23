@@ -27,9 +27,9 @@
 ## Tecnologias
 
 - <a href="https://www.learn-html.org/" style="text-decoration: none; font-size: 16px; color: #fff;" >HTML5 </a>
+- <a href="https://nodejs.org/en/" style="text-decoration: none; font-size: 16px; color: #fff;" >Node JS </a>
 - <a href="https://www.javascript.com/" style="text-decoration: none; font-size: 16px; color: #fff;" >JavaScrit </a>
 - <a href="https://www.learn-html.org/" style="text-decoration: none; font-size: 16px; color: #fff;" >CSS</a>
-
 
 
 ## Autor:
