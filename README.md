@@ -10,7 +10,7 @@
 <p>Em sua versão inicial, o site deve apresentar quando selecionada a receita apenas um card com o nome da receita e autor. Porém em sua versão final serão adicionados os artigos através do Back-and desenvolvido com Node.js.</p>
 
 
-<img src="https://github.com/pereirafelipe/Foodfy-front-end/blob/master/assets/Foodfy2.gif" aling="center" alt="foodfy-gif" >
+<img src="https://github.com/pereirafelipe/Foodfy-front-end/blob/master/assets/Foodfy2.gif" width="100%" alt="foodfy-gif" >
                                                                                                                
 ## :books:Paginas
 
